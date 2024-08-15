@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    animation: fadeIn 0.3s ease-out;
+    background-image: url("pexels-polina-kovaleva-5717479.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    padding: 20px;
+    border-radius: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    height:500px;
+    text-align: center;
+    color:blue;
+    animation: slideIn 0.5s ease-out;
+    background-image: url("360_F_513597277_YYqrogAmgRR9ohwTUnOM784zS9eYUcSk.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    animation: slideIn 0.6s ease-out;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border-radius: 40px;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    animation: slideIn 0.7s ease-out;
+    }
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color:blue;
+    color: white;
+    cursor: pointer;
+    animation: slideIn 0.7s ease-out;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+button.delete {
+    background-color: #dc3545;
+    margin-left: 10px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
