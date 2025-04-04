@@ -22,16 +22,16 @@ Click here to play TIC-TAC-TOE: [Live Demo](https://joshb-hub.github.io/to-do-li
 ## 📸 Screenshots
 
 ### 📌 Task Start
-![Task Start](Screenshot%22025-04-04%2231009.png)
+![Task Start](https://github.com/Joshb-hub/to-do-list/blob/main/Screenshot%202025-04-04%20231009.png)
 
 ### Task Management 
-![Task Management](Screenshot%22025-04-04%2232447.png)
+![Task Management](https://github.com/Joshb-hub/to-do-list/blob/main/Screenshot%202025-04-04%20232447.png)
 
 ### 🎯 Marking Tasks as Complete
-![Task Completion](Screenshot%22025-04-04%2231037.png)
+![Task Completion](https://github.com/Joshb-hub/to-do-list/blob/main/Screenshot%202025-04-04%20231037.png)
 
 ### ❌ Deleting Tasks
-![Task Deletion](Screenshot%22025-04-04%2232507.png)
+![Task Deletion](https://github.com/Joshb-hub/to-do-list/blob/main/Screenshot%202025-04-04%20232507.png)
 
 ---
 
